@@ -11,12 +11,15 @@ body {
 }
 
 .navbar {
-    background-color: red;
-    height: 6%;
+    background: transparent;
+    position: sticky;
+    top:0;
+    height: 7%;
     width:100%;
     display:flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid silver;
 }
 
 .navbar a {
@@ -27,9 +30,8 @@ body {
     font-weight:600;
 }
 
-.navbar .locations {
-    display: flex;
-    align-items: right;
+.navbar .locations a {
+    padding:auto 10px;
 }
 
 .login {
@@ -37,12 +39,35 @@ body {
     left: 35%;
 }
 
+.show-img {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.show-img img {
+    margin-top:10px;
+}
+
+.show-img p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
 /* MEDIAS */    
 
 @media (max-width: 575px) {
   .login {
     position: relative;
-    left: 10%;
+    left: 17%;
+  }
+  .locations {
+    position: relative;
+    left:5%;
   }
 }
 
