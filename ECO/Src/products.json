@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": "p001",
+      "name": "Leather Wallet",
+      "description": "Genuine leather wallet with multiple card slots and RFID protection.",
+      "price": 39.99,
+      "imgSrc": "https://example.com/images/wallet.jpg",
+      "category": "Accessories",
+      "inStock": true
+    },
+    {
+      "id": "p002",
+      "name": "Wireless Headphones",
+      "description": "Bluetooth headphones with noise-cancelling and 20-hour battery life.",
+      "price": 89.95,
+      "imgSrc": "https://example.com/images/headphones.jpg",
+      "category": "Electronics",
+      "inStock": true
+    },
+    {
+      "id": "p003",
+      "name": "Stainless Steel Water Bottle",
+      "description": "Keeps drinks hot for 12 hours or cold for 24. Eco-friendly and BPA-free.",
+      "price": 24.5,
+      "imgSrc": "https://example.com/images/bottle.jpg",
+      "category": "Home & Kitchen",
+      "inStock": false
+    },
+    {
+      "id": "p004",
+      "name": "Analog Wristwatch",
+      "description": "Minimalist design with waterproof casing and genuine leather strap.",
+      "price": 120.0,
+      "imgSrc": "https://example.com/images/watch.jpg",
+      "category": "Accessories",
+      "inStock": true
+    },
+    {
+      "id": "p005",
+      "name": "USB-C Fast Charger",
+      "description": "Compact and powerful 45W USB-C charger compatible with all major brands.",
+      "price": 29.99,
+      "imgSrc": "https://example.com/images/charger.jpg",
+      "category": "Electronics",
+      "inStock": true
+    }
+  ]
+}
