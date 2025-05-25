@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Support - ECO Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="support-container">
+    <h1>Support Center</h1>
+    <p>We're here to help you with any issue you’re facing.</p>
+
+    <form class="support-form">
+      <label for="issue">Select an issue:</label>
+      <select id="issue" name="issue" required>
+        <option value="">-- Please choose an issue --</option>
+        <option value="login">Login Problem</option>
+        <option value="order">Order Not Received</option>
+        <option value="payment">Payment Issue</option>
+        <option value="product">Product Inquiry</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="description">Describe your issue:</label>
+      <textarea id="description" name="description" rows="6" placeholder="Write details here..." required></textarea>
+
+      <div class="contact-info">
+        <p><strong>📞 Phone:</strong> +1 (800) 123-4567</p>
+        <p><strong>📧 Email:</strong> support@ecostore.com</p>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

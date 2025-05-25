@@ -25,6 +25,7 @@
     }
 
 const submitBtn = document.getElementById("submitBtn");
+const deleteBtn = document.getElementById("delete")
 
 submitBtn.addEventListener('click', (e) => {
   e.preventDefault();
@@ -40,3 +41,8 @@ submitBtn.addEventListener('click', (e) => {
   window.location.href = "../ECO/index.html"
 })
 
+deleteBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+
+  localStorage.clear();
+})
