@@ -137,6 +137,40 @@
       margin-top: 5px;
     }
 
+    .store-container button {
+      cursor: pointer;
+    }
+
+    .cart {
+      position: absolute;
+      max-width:400px;
+      width: 100%;
+      height:400px;
+      background-color: rgb(92, 74, 228);
+      top: 30%;
+      right:36%;
+      opacity: .85;
+      border: 2px solid silver;
+      border-radius: 22px;
+    }
+
+    .cart h2 {
+      margin-top:15px;
+      text-align: center;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .arranged {
+      text-align: left;
+      margin-top: 5px;
+      padding-left: 20px;
+      font-size: 1.1rem;
+    }
+
+
     footer {
       background-color: #1a1a40;
       padding: 1rem;
